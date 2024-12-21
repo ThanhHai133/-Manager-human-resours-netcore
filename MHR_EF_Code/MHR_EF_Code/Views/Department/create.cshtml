@@ -1,0 +1,16 @@
+﻿@model MHR_EF_Code.ViewModels.departmentVM
+
+
+<form method="post">
+    <div class="form-group">
+        <label>Name</label>
+        <input type="text" class="form-control" asp-for="Name" required />
+    </div>
+
+    <div class="form-group">
+        <label>location</label>
+        <input class="form-control" asp-for="location" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create Product</button>
+</form>

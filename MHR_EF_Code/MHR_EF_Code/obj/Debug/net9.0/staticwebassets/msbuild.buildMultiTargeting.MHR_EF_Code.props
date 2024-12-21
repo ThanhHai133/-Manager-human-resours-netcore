@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MHR_EF_Code.props" />
+</Project>

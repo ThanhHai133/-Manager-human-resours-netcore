@@ -1,0 +1,21 @@
+﻿@model MHR_EF_Code.ViewModels.productVM
+
+
+
+    
+
+<form method="post">
+    <div class="form-group">
+        <label>Product Name</label>
+        <input type="text"  class="form-control" asp-for="Name" required />
+    </div>
+
+    <div class="form-group">
+        <label>Product Description</label>
+        <input class="form-control" asp-for="Description" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create Product</button>
+</form>
+
+

@@ -1,0 +1,21 @@
+﻿@model MHR_EF_Code.Models.Entities.department
+
+<h2>edit</h2>
+<form asp-action="Edit" method="post">
+    <div class="form-group">
+        <label class="control-label"> id</label>
+        <input class="form-control" asp-for="DepartmentID" readonly />
+    </div>
+
+    <div class="form-group">
+        <label class="control-label">Name</label>
+        <input asp-for="Name" class="form-control">
+    </div>
+    <div class="form-group">
+        <label class="control-label">location</label>
+        <input asp-for="location" class="form-control">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

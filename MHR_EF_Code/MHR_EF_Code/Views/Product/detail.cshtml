@@ -1,0 +1,19 @@
+﻿@model MHR_EF_Code.Models.Entities.products
+
+<h1>DETAIL</h1>
+<form asp-action="Detail" method="post">
+    <input  asp-for="id" />
+    <table class="table">
+        <tr>
+            <th>Product Name</th>
+            <td>@Model.Name</td>
+        </tr>
+        <tr>
+            <th>dic </th>
+            <td>@Model.Description</td>
+        </tr>
+
+    </table>
+    <button type="submit" class="btn btn-danger">Delete</button>
+    @Html.ActionLink("Cancel", "Index", new { area = "admin", controller = "Products", @class = "btn btn-danger" })
+</form>

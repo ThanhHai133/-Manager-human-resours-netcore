@@ -1,0 +1,26 @@
+﻿@model MHR_EF_Code.Models.Entities.products
+
+
+<h2>Edit Product</h2>
+@if(Model == null)
+{
+    <p>not found</p>
+}
+<form asp-action="Edit" method="post">
+    <div class="form-group">
+        <label class="control-label"> id</label>
+        <input class="form-control" asp-for="id" readonly/>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label">Name</label>
+        <input asp-for="Name" class="form-control">
+    </div>
+    <div class="form-group">
+        <label class="control-label">Description</label>
+        <input asp-for="Description" class="form-control">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
