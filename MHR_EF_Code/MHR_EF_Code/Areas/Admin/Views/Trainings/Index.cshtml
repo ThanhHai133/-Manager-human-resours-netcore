@@ -1,0 +1,51 @@
+﻿@model IEnumerable<MHR_EF_Code.Models.Entities.Training>
+
+
+<h1>Training List</h1>
+
+<p>
+    <a class="btn btn-success" asp-action="Create">Create</a>
+    <a class="btn btn-primary" asp-action="join">Joined List</a>
+</p>
+<table class="table table-bordered table-striped table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TrainingName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsActive)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TrainingName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsActive)
+            </td>
+            <td>
+                <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.TrainingID">Edit</a> 
+                <a class="btn btn-info" asp-action="Details" asp-route-id="@item.TrainingID">Details</a> 
+                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.TrainingID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

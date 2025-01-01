@@ -1,0 +1,23 @@
+﻿@model List<MHR_EF_Code.Models.Entities.EmployeeTraining>
+
+<h2>List of Employees Who Participated</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Employee Name</th>
+            <th>Training Name</th>
+        </tr>
+    </thead>
+    <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Employees?.FullName</td>
+                    <td>@item.Training?.TrainingName</td>
+                </tr>
+            }
+    </tbody>
+   
+</table>
+<a class="btn btn-secondary" asp-action="index">go back</a>

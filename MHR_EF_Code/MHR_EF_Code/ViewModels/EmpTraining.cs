@@ -14,7 +14,7 @@ namespace MHR_EF_Code.ViewModels
         public Guid TrainingId { get; set; }  // Sửa kiểu dữ liệu thành Guid
 
         [ForeignKey("EmployeeId")]
-        public virtual Employee? Employee { get; set; }
+        public virtual Employees? Employee { get; set; }
 
         [ForeignKey("TrainingId")]
         public virtual Training? Training { get; set; }

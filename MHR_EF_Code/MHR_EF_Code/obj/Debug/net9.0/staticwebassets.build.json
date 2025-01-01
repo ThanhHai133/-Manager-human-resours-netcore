@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CfPY/gHQMnLAHwZw8D7gUjVdbq1pqCapqMBafYmaEig=",
+  "Hash": "RFsrA6di0xM8KF529KxFYiVlPiaEK17cnOv/01KUlMw=",
   "Source": "MHR_EF_Code",
   "BasePath": "_content/MHR_EF_Code",
   "Mode": "Default",
@@ -479,6 +479,27 @@
       "OriginalItemSpec": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
+      "Identity": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\obj\\Debug\\net9.0\\compressed\\cqaxx2k56j-xnri5voatm.gz",
+      "SourceId": "MHR_EF_Code",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MHR_EF_Code",
+      "RelativePath": "css/styleCss#[.{fingerprint=xnri5voatm}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\css\\styleCss.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ey5p4v43bu",
+      "Integrity": "mrXTgAMvImGMQQCWlMQz1yPNIE/r+09bWy9LHOWL5K0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\css\\styleCss.css"
+    },
+    {
       "Identity": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\obj\\Debug\\net9.0\\compressed\\dah8fmr9ng-jd9uben2k1.gz",
       "SourceId": "MHR_EF_Code",
       "SourceType": "Discovered",
@@ -857,6 +878,27 @@
       "OriginalItemSpec": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
+      "Identity": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\obj\\Debug\\net9.0\\compressed\\otgqzann1h-dzxn5czc41.gz",
+      "SourceId": "MHR_EF_Code",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MHR_EF_Code",
+      "RelativePath": "js/controllUser#[.{fingerprint=dzxn5czc41}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\js\\controllUser.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ta6w89uius",
+      "Integrity": "G+x5WRKm7Fu8aEtvYUva0E+B/F5H+MYZKun9uVY1XWs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\js\\controllUser.js"
+    },
+    {
       "Identity": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\obj\\Debug\\net9.0\\compressed\\oufnz8hhwx-iovd86k7lj.gz",
       "SourceId": "MHR_EF_Code",
       "SourceType": "Discovered",
@@ -1023,6 +1065,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Identity": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\obj\\Debug\\net9.0\\compressed\\rzugwukxia-6ork7qkrfx.gz",
+      "SourceId": "MHR_EF_Code",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/MHR_EF_Code",
+      "RelativePath": "js/confirmDelete#[.{fingerprint=6ork7qkrfx}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\js\\confirmDelete.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "1doyj9cc3k",
+      "Integrity": "K9ld2U8cx/7fLEqMZmqUST3i0ERan/i28ASZ8tN2B0Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\js\\confirmDelete.js"
     },
     {
       "Identity": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\obj\\Debug\\net9.0\\compressed\\s5ehja4sb4-61n19gt1b8.gz",
@@ -1424,6 +1487,27 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\css\\styleCss.css",
+      "SourceId": "MHR_EF_Code",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\",
+      "BasePath": "_content/MHR_EF_Code",
+      "RelativePath": "css/styleCss#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xnri5voatm",
+      "Integrity": "c6LLQPtjQ0qRxgSB0NbC0P4Nf5MsDZJ+F6UOyGXTLug=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styleCss.css"
+    },
+    {
       "Identity": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\favicon.ico",
       "SourceId": "MHR_EF_Code",
       "SourceType": "Discovered",
@@ -1443,6 +1527,90 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\img\\hat.png",
+      "SourceId": "MHR_EF_Code",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\",
+      "BasePath": "_content/MHR_EF_Code",
+      "RelativePath": "img/hat#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rqi7pi3cs4",
+      "Integrity": "XTTm27hDEnqKR4C+F18MJE78ENGpMGGuK0p6rqzQhBI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\hat.png"
+    },
+    {
+      "Identity": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\img\\op.png",
+      "SourceId": "MHR_EF_Code",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\",
+      "BasePath": "_content/MHR_EF_Code",
+      "RelativePath": "img/op#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zdftnrk8mt",
+      "Integrity": "J/Z6hp2UMOAqQ+c233zebH8McQMncJVAogySiAP8zrA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\op.png"
+    },
+    {
+      "Identity": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\js\\confirmDelete.js",
+      "SourceId": "MHR_EF_Code",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\",
+      "BasePath": "_content/MHR_EF_Code",
+      "RelativePath": "js/confirmDelete#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6ork7qkrfx",
+      "Integrity": "6icYMFZPIBTYy70og9OrBHlXxlcH2dnYRhUj1xeXPEQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\confirmDelete.js"
+    },
+    {
+      "Identity": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\js\\controllUser.js",
+      "SourceId": "MHR_EF_Code",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\",
+      "BasePath": "_content/MHR_EF_Code",
+      "RelativePath": "js/controllUser#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dzxn5czc41",
+      "Integrity": "N+8ct/sGLNPSAvf/ZfVSgIGECh30vA7TxRkC/MIsQmY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\controllUser.js"
     },
     {
       "Identity": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\js\\site.js",
@@ -3026,6 +3194,304 @@
       ]
     },
     {
+      "Route": "css/styleCss.css",
+      "AssetFile": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\obj\\Debug\\net9.0\\compressed\\cqaxx2k56j-xnri5voatm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000422119038"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2368"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mrXTgAMvImGMQQCWlMQz1yPNIE/r+09bWy9LHOWL5K0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 04:13:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"c6LLQPtjQ0qRxgSB0NbC0P4Nf5MsDZJ+F6UOyGXTLug=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c6LLQPtjQ0qRxgSB0NbC0P4Nf5MsDZJ+F6UOyGXTLug="
+        }
+      ]
+    },
+    {
+      "Route": "css/styleCss.css",
+      "AssetFile": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\css\\styleCss.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7385"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c6LLQPtjQ0qRxgSB0NbC0P4Nf5MsDZJ+F6UOyGXTLug=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 04:13:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c6LLQPtjQ0qRxgSB0NbC0P4Nf5MsDZJ+F6UOyGXTLug="
+        }
+      ]
+    },
+    {
+      "Route": "css/styleCss.css.gz",
+      "AssetFile": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\obj\\Debug\\net9.0\\compressed\\cqaxx2k56j-xnri5voatm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mrXTgAMvImGMQQCWlMQz1yPNIE/r+09bWy9LHOWL5K0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 04:13:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mrXTgAMvImGMQQCWlMQz1yPNIE/r+09bWy9LHOWL5K0="
+        }
+      ]
+    },
+    {
+      "Route": "css/styleCss.xnri5voatm.css",
+      "AssetFile": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\obj\\Debug\\net9.0\\compressed\\cqaxx2k56j-xnri5voatm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000422119038"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2368"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mrXTgAMvImGMQQCWlMQz1yPNIE/r+09bWy9LHOWL5K0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 04:13:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"c6LLQPtjQ0qRxgSB0NbC0P4Nf5MsDZJ+F6UOyGXTLug=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xnri5voatm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styleCss.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c6LLQPtjQ0qRxgSB0NbC0P4Nf5MsDZJ+F6UOyGXTLug="
+        }
+      ]
+    },
+    {
+      "Route": "css/styleCss.xnri5voatm.css",
+      "AssetFile": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\css\\styleCss.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7385"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c6LLQPtjQ0qRxgSB0NbC0P4Nf5MsDZJ+F6UOyGXTLug=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 04:13:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xnri5voatm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styleCss.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c6LLQPtjQ0qRxgSB0NbC0P4Nf5MsDZJ+F6UOyGXTLug="
+        }
+      ]
+    },
+    {
+      "Route": "css/styleCss.xnri5voatm.css.gz",
+      "AssetFile": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\obj\\Debug\\net9.0\\compressed\\cqaxx2k56j-xnri5voatm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mrXTgAMvImGMQQCWlMQz1yPNIE/r+09bWy9LHOWL5K0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 04:13:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xnri5voatm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styleCss.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mrXTgAMvImGMQQCWlMQz1yPNIE/r+09bWy9LHOWL5K0="
+        }
+      ]
+    },
+    {
       "Route": "favicon.61n19gt1b8.ico",
       "AssetFile": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\obj\\Debug\\net9.0\\compressed\\s5ehja4sb4-61n19gt1b8.gz",
       "Selectors": [
@@ -3320,6 +3786,766 @@
         {
           "Name": "integrity",
           "Value": "sha256-jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8="
+        }
+      ]
+    },
+    {
+      "Route": "img/hat.png",
+      "AssetFile": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\img\\hat.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1730"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XTTm27hDEnqKR4C+F18MJE78ENGpMGGuK0p6rqzQhBI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 02 Nov 2024 07:45:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XTTm27hDEnqKR4C+F18MJE78ENGpMGGuK0p6rqzQhBI="
+        }
+      ]
+    },
+    {
+      "Route": "img/hat.rqi7pi3cs4.png",
+      "AssetFile": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\img\\hat.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1730"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XTTm27hDEnqKR4C+F18MJE78ENGpMGGuK0p6rqzQhBI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 02 Nov 2024 07:45:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rqi7pi3cs4"
+        },
+        {
+          "Name": "label",
+          "Value": "img/hat.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XTTm27hDEnqKR4C+F18MJE78ENGpMGGuK0p6rqzQhBI="
+        }
+      ]
+    },
+    {
+      "Route": "img/op.png",
+      "AssetFile": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\img\\op.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "860485"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J/Z6hp2UMOAqQ+c233zebH8McQMncJVAogySiAP8zrA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 01:56:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J/Z6hp2UMOAqQ+c233zebH8McQMncJVAogySiAP8zrA="
+        }
+      ]
+    },
+    {
+      "Route": "img/op.zdftnrk8mt.png",
+      "AssetFile": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\img\\op.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "860485"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J/Z6hp2UMOAqQ+c233zebH8McQMncJVAogySiAP8zrA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 01:56:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zdftnrk8mt"
+        },
+        {
+          "Name": "label",
+          "Value": "img/op.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J/Z6hp2UMOAqQ+c233zebH8McQMncJVAogySiAP8zrA="
+        }
+      ]
+    },
+    {
+      "Route": "js/confirmDelete.6ork7qkrfx.js",
+      "AssetFile": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\obj\\Debug\\net9.0\\compressed\\rzugwukxia-6ork7qkrfx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002652519894"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "376"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K9ld2U8cx/7fLEqMZmqUST3i0ERan/i28ASZ8tN2B0Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 12 Nov 2024 01:14:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"6icYMFZPIBTYy70og9OrBHlXxlcH2dnYRhUj1xeXPEQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6ork7qkrfx"
+        },
+        {
+          "Name": "label",
+          "Value": "js/confirmDelete.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6icYMFZPIBTYy70og9OrBHlXxlcH2dnYRhUj1xeXPEQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/confirmDelete.6ork7qkrfx.js",
+      "AssetFile": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\js\\confirmDelete.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "641"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6icYMFZPIBTYy70og9OrBHlXxlcH2dnYRhUj1xeXPEQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 12 Nov 2024 01:14:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6ork7qkrfx"
+        },
+        {
+          "Name": "label",
+          "Value": "js/confirmDelete.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6icYMFZPIBTYy70og9OrBHlXxlcH2dnYRhUj1xeXPEQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/confirmDelete.6ork7qkrfx.js.gz",
+      "AssetFile": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\obj\\Debug\\net9.0\\compressed\\rzugwukxia-6ork7qkrfx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "376"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K9ld2U8cx/7fLEqMZmqUST3i0ERan/i28ASZ8tN2B0Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 12 Nov 2024 01:14:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6ork7qkrfx"
+        },
+        {
+          "Name": "label",
+          "Value": "js/confirmDelete.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K9ld2U8cx/7fLEqMZmqUST3i0ERan/i28ASZ8tN2B0Y="
+        }
+      ]
+    },
+    {
+      "Route": "js/confirmDelete.js",
+      "AssetFile": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\obj\\Debug\\net9.0\\compressed\\rzugwukxia-6ork7qkrfx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002652519894"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "376"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K9ld2U8cx/7fLEqMZmqUST3i0ERan/i28ASZ8tN2B0Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 12 Nov 2024 01:14:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"6icYMFZPIBTYy70og9OrBHlXxlcH2dnYRhUj1xeXPEQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6icYMFZPIBTYy70og9OrBHlXxlcH2dnYRhUj1xeXPEQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/confirmDelete.js",
+      "AssetFile": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\js\\confirmDelete.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "641"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6icYMFZPIBTYy70og9OrBHlXxlcH2dnYRhUj1xeXPEQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 12 Nov 2024 01:14:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6icYMFZPIBTYy70og9OrBHlXxlcH2dnYRhUj1xeXPEQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/confirmDelete.js.gz",
+      "AssetFile": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\obj\\Debug\\net9.0\\compressed\\rzugwukxia-6ork7qkrfx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "376"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K9ld2U8cx/7fLEqMZmqUST3i0ERan/i28ASZ8tN2B0Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 12 Nov 2024 01:14:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-K9ld2U8cx/7fLEqMZmqUST3i0ERan/i28ASZ8tN2B0Y="
+        }
+      ]
+    },
+    {
+      "Route": "js/controllUser.dzxn5czc41.js",
+      "AssetFile": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\obj\\Debug\\net9.0\\compressed\\otgqzann1h-dzxn5czc41.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003389830508"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "294"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+x5WRKm7Fu8aEtvYUva0E+B/F5H+MYZKun9uVY1XWs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 08:12:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"N+8ct/sGLNPSAvf/ZfVSgIGECh30vA7TxRkC/MIsQmY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dzxn5czc41"
+        },
+        {
+          "Name": "label",
+          "Value": "js/controllUser.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N+8ct/sGLNPSAvf/ZfVSgIGECh30vA7TxRkC/MIsQmY="
+        }
+      ]
+    },
+    {
+      "Route": "js/controllUser.dzxn5czc41.js",
+      "AssetFile": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\js\\controllUser.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "542"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N+8ct/sGLNPSAvf/ZfVSgIGECh30vA7TxRkC/MIsQmY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 08:12:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dzxn5czc41"
+        },
+        {
+          "Name": "label",
+          "Value": "js/controllUser.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N+8ct/sGLNPSAvf/ZfVSgIGECh30vA7TxRkC/MIsQmY="
+        }
+      ]
+    },
+    {
+      "Route": "js/controllUser.dzxn5czc41.js.gz",
+      "AssetFile": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\obj\\Debug\\net9.0\\compressed\\otgqzann1h-dzxn5czc41.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "294"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+x5WRKm7Fu8aEtvYUva0E+B/F5H+MYZKun9uVY1XWs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 08:12:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dzxn5czc41"
+        },
+        {
+          "Name": "label",
+          "Value": "js/controllUser.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+x5WRKm7Fu8aEtvYUva0E+B/F5H+MYZKun9uVY1XWs="
+        }
+      ]
+    },
+    {
+      "Route": "js/controllUser.js",
+      "AssetFile": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\obj\\Debug\\net9.0\\compressed\\otgqzann1h-dzxn5czc41.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003389830508"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "294"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+x5WRKm7Fu8aEtvYUva0E+B/F5H+MYZKun9uVY1XWs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 08:12:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"N+8ct/sGLNPSAvf/ZfVSgIGECh30vA7TxRkC/MIsQmY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N+8ct/sGLNPSAvf/ZfVSgIGECh30vA7TxRkC/MIsQmY="
+        }
+      ]
+    },
+    {
+      "Route": "js/controllUser.js",
+      "AssetFile": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\js\\controllUser.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "542"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N+8ct/sGLNPSAvf/ZfVSgIGECh30vA7TxRkC/MIsQmY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 08:12:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N+8ct/sGLNPSAvf/ZfVSgIGECh30vA7TxRkC/MIsQmY="
+        }
+      ]
+    },
+    {
+      "Route": "js/controllUser.js.gz",
+      "AssetFile": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\obj\\Debug\\net9.0\\compressed\\otgqzann1h-dzxn5czc41.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "294"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+x5WRKm7Fu8aEtvYUva0E+B/F5H+MYZKun9uVY1XWs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 08:12:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+x5WRKm7Fu8aEtvYUva0E+B/F5H+MYZKun9uVY1XWs="
         }
       ]
     },
@@ -21310,7 +22536,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 12:45:16 GMT"
+          "Value": "Tue, 24 Dec 2024 07:28:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21371,7 +22597,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 12:45:16 GMT"
+          "Value": "Tue, 24 Dec 2024 07:28:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21416,7 +22642,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 12:45:16 GMT"
+          "Value": "Tue, 24 Dec 2024 07:28:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21471,7 +22697,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 12:45:16 GMT"
+          "Value": "Tue, 24 Dec 2024 07:28:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21532,7 +22758,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 12:45:16 GMT"
+          "Value": "Tue, 24 Dec 2024 07:28:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21577,7 +22803,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 12:45:16 GMT"
+          "Value": "Tue, 24 Dec 2024 07:28:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21632,7 +22858,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 12:45:16 GMT"
+          "Value": "Tue, 24 Dec 2024 07:28:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21685,7 +22911,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 12:45:16 GMT"
+          "Value": "Tue, 24 Dec 2024 07:28:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21722,7 +22948,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 12:45:16 GMT"
+          "Value": "Tue, 24 Dec 2024 07:28:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21769,7 +22995,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 12:45:16 GMT"
+          "Value": "Tue, 24 Dec 2024 07:28:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21822,7 +23048,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 12:45:16 GMT"
+          "Value": "Tue, 24 Dec 2024 07:28:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21859,7 +23085,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 17 Dec 2024 12:45:16 GMT"
+          "Value": "Tue, 24 Dec 2024 07:28:20 GMT"
         },
         {
           "Name": "Cache-Control",

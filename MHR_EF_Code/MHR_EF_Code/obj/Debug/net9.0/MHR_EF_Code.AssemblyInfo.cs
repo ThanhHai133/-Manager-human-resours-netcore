@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MHR_EF_Code")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd58894aa3d231d7cb9e16fa45bd8e4f175079f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("MHR_EF_Code")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MHR_EF_Code")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

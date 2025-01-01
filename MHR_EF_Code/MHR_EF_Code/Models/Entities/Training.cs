@@ -14,5 +14,5 @@ namespace MHR_EF_Code.Models.Entities
         public bool IsActive { get; set; }
 
         public virtual ICollection<EmployeeTraining> EmployeeTrainings { get; set; }
-    }
+    }   
 }

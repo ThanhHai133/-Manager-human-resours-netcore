@@ -1,0 +1,298 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.main {
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    transition: all 0.35s ease-in-out;
+    background-color: #fafbfe;
+}
+
+#sidebar {
+    width: 70px;
+    min-width: 70px;
+    height: 100vh;
+    z-index: 1000;
+    transition: all .25s ease-in-out;
+    background-color: #0e2238;
+    display: flex;
+    flex-direction: column;
+}
+
+    #sidebar.expand {
+        width: 260px;
+        min-width: 260px;
+    }
+
+.toggle-btn {
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+    padding: 1rem 1.5rem;
+}
+
+    .toggle-btn i {
+        font-size: 1.5rem;
+        color: #FFF;
+    }
+
+.sidebar-logo {
+    margin: auto 0;
+}
+
+    .sidebar-logo a {
+        color: #FFF;
+        font-size: 1.15rem;
+        font-weight: 600;
+    }
+
+#sidebar:not(.expand) .sidebar-logo,
+#sidebar:not(.expand) a.sidebar-link span {
+    display: none;
+}
+
+.sidebar-nav {
+    padding: 2rem 0;
+    flex: 1 1 auto;
+}
+
+a.sidebar-link {
+    padding: .625rem 1.625rem;
+    color: #FFF;
+    display: block;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    border-left: 3px solid transparent;
+}
+
+.sidebar-link i {
+    font-size: 1.1rem;
+    margin-right: .75rem;
+}
+
+a.sidebar-link:hover {
+    background-color: rgba(255, 255, 255, .075);
+    border-left: 3px solid #ffcc00;
+    color: #ffcc00
+}
+
+.sidebar-item {
+    position: relative;
+}
+
+#sidebar:not(.expand) .sidebar-item .sidebar-dropdown {
+    position: absolute;
+    top: 0;
+    left: 70px;
+    background-color: #0e2238;
+    padding: 0;
+    min-width: 15rem;
+    display: none;
+}
+
+#sidebar:not(.expand) .sidebar-item:hover .has-dropdown + .sidebar-dropdown {
+    display: block;
+    max-height: auto;
+    width: 100%;
+    opacity: 1;
+}
+
+
+#sidebar.expand .sidebar-link[data-bs-toggle="collapse"]::after {
+    border: solid;
+    border-width: 0 .075rem .075rem 0;
+    content: "";
+    display: inline-block;
+    padding: 2px;
+    position: absolute;
+    right: 1.5rem;
+    top: 1.4rem;
+    transform: rotate(-135deg);
+    transition: all .2s ease-out;   
+}
+
+
+#sidebar.expand .sidebar-link[data-bs-toggle="collapse"].collapsed::after {
+    transform: rotate(45deg);
+    transition: all .2s ease-out;
+}
+.navbar {
+    width: calc(100% - 70px); /* Đảm bảo navbar không bị chèn ra ngoài */
+    z-index: 1001; /* Đảm bảo navbar nằm trên sidebar */
+    position: fixed; /* Cố định vị trí navbar */
+    top: 0; /* Giữ navbar ở trên cùng */
+    left: 70px; /* Căn giữa navbar với sidebar khi thu gọn */
+    transition: all 0.35s ease-in-out;
+    box-sizing: border-box; /* Tính cả padding và border vào chiều rộng */
+    display: flex; /* Sử dụng flexbox */
+    justify-content: space-between; /* Căn giữa các phần tử */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+#sidebar.expand {
+    overflow-y: auto;
+}
+
+#sidebar.expand ~ .navbar {
+    left: 260px; /* Khi sidebar mở rộng */
+    width: calc(100% - 260px); /* Chiều rộng navbar sẽ bằng 100% chiều rộng viewport trừ đi chiều rộng sidebar khi mở rộng */
+}
+#sidebar.expand ~ .main {
+    margin-left: 260px;
+    width: calc(100% - 260px); /* Chiều rộng khi sidebar mở rộng */
+}
+
+.navbar-brand {
+    font-size: 23px; /* Kích thước chữ cho brand */
+    color: aqua; /* Màu chữ cho brand */
+    margin-left: 10px; /* Margin cho brand */
+    font-weight: bold; /* In đậm */
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white; /* Màu chữ cho liên kết navbar */
+}
+
+    .navbar-nav .nav-item .nav-link:hover {
+        color: #ffcc00; /* Màu chữ khi hover */
+    }
+
+/* Styles cho menu dropdown */
+.dropdown-menu {
+    background-color: #343a40; /* Màu nền tối cho dropdown */
+    border: none; /* Xóa border */
+}
+
+.dropdown-item {
+    color: #ffffff; /* Màu chữ trắng cho các mục */
+}
+
+    .dropdown-item:hover {
+        background-color: #007bff; /* Màu nền khi hover */
+        color: #ffffff; /* Giữ màu chữ trắng khi hover */
+    }
+
+    /* Style cho tên người dùng trong dropdown */
+    .dropdown-item.profile {
+        font-weight: bold; /* In đậm cho profile */
+        color: red; /* Màu chữ đỏ */
+    }
+
+/* CSS cho thanh tìm kiếm */
+.navbar-nav .form-control {
+    background-color: transparent; /* Nền trong suốt */ 
+    border: 2px solid #ffff; /* Border để làm nổi bật textbox */
+    color: #fff; /* Màu chữ trong input */
+    border-radius: 15px; /* Góc bo tròn cho input */
+    padding: 5px 10px; /* Padding cho input */
+    margin-top: 5px; /* Margin trên cho input */
+}
+
+    .navbar-nav .form-control::placeholder {
+        color: #ccc; /* Màu cho placeholder */
+    }
+.table {
+    width: 100%; /* Đảm bảo bảng chiếm 100% chiều rộng */
+}
+
+.table-responsive {
+    width: 100%; /* Đảm bảo khối chứa bảng chiếm 100% chiều rộng */
+}
+
+@media (max-width: 768px) {
+
+
+    #sidebar.expand ~ .container-fluid,
+    #sidebar:not(.expand) ~ .container-fluid {
+        margin-left: 0;
+    }
+}
+/*table*/
+.table-responsive {
+    overflow-x: auto; /* Cho phép cuộn ngang */
+    -webkit-overflow-scrolling: touch; /* Hỗ trợ cuộn trên thiết bị di động */
+    max-width: 100%; /* Giới hạn chiều rộng bảng */
+}
+.form-control {
+    border: 1px solid #ced4da; /* Màu viền nhẹ */
+    border-radius: 5px; /* Góc bo tròn */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng */
+    background-color: #f9f9f9; /* Màu nền nhạt hơn */
+}
+
+    .form-control:focus {
+        border-color: #007bff; /* Màu viền khi focus */
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Bóng sáng hơn khi focus */
+        background-color: #ffffff; /* Nền trắng khi focus */
+    }
+
+
+/* Đặt nền footer thành màu trắng */
+.footer {
+    background-color: #ffffff; /* Màu trắng */
+    padding: 20px 0;
+    border-top: 1px solid #ddd; /* Đường viền mờ trên footer */
+}
+
+/* Đổi màu chữ và icon thành xanh đậm */
+.footer-link {
+    color: #0e2238; /* Màu xanh đậm */
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+    .footer-link:hover {
+        color: #00264d; /* Màu xanh đậm hơn khi hover */
+    }
+
+.footer-icon {
+    color: #004080; /* Màu xanh đậm */
+    margin-right: 5px;
+}
+
+    .footer-icon:hover {
+        color: #00264d; /* Màu xanh đậm hơn khi hover */
+    }
+
+/* Reset margin/padding nếu cần */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.divider {
+    border: 0;
+    height: 1px;
+    background-color: #007bff; /* Đổi màu đường ngang theo ý muốn */
+    margin: 15px 0; /* Khoảng cách trên dưới */
+}
+

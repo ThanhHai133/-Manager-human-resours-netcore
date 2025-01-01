@@ -1,0 +1,57 @@
+﻿@model IEnumerable<MHR_EF_Code.Models.Entities.Contact>
+
+<h2>Contact</h2>
+<table class="table table-bordered table-striped table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.First().ContactType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().BaseSalary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().StartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().EndDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Employee.EmployeeCode)
+            </th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ContactType)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BaseSalary)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StartDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EndDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Employee.EmployeeCode)
+                </td>
+                <td>
+                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.ContactId">Edit</a>
+                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.ContactId">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

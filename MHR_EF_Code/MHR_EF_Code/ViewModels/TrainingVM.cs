@@ -11,7 +11,5 @@ namespace MHR_EF_Code.ViewModels
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public bool IsActive { get; set; }
-
-        public virtual ICollection<EmployeeTraining>? EmployeeTrainings { get; set; }
     }
 }

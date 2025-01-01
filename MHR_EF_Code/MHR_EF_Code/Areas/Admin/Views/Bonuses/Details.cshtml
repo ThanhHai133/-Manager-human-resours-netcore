@@ -1,0 +1,39 @@
+﻿@model MHR_EF_Code.Models.Entities.Bonus
+
+
+
+
+<div>
+    <h4>Bonus</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.BonusName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.BonusName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Amount)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Amount)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Employees)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Employees.EmployeeCode)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.BonusId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

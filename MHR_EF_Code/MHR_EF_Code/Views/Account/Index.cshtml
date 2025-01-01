@@ -1,0 +1,15 @@
+﻿@model List<MHR_EF_Code.Models.Entities.AppUser>
+
+
+<h2>List Account</h2>
+<table class="table"
+    <tr>
+        <th>user name</th>
+    </tr>>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.UserName</td>
+        </tr>
+    }
+</table>

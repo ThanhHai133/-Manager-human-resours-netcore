@@ -1,0 +1,71 @@
+﻿@model MHR_EF_Code.ViewModels.TrainingListVM
+
+<h1>Training List</h1>
+
+<div class="container">
+    <div class="row">
+        @foreach (var item in Model.Trainings)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>@item.TrainingName</h5>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Description:</strong> @item.Description</p>
+                        <p><strong>Quantity:</strong> @item.Quantity</p>
+                        <p><strong>Start Date:</strong> @item.StartDate.ToShortDateString()</p>
+                        <p><strong>End Date:</strong> @item.EndDate.ToShortDateString()</p>
+                        <p><strong>Status:</strong> @item.IsActive ? "Active" : "Inactive"</p>
+                    </div>
+                    <div class="card-footer">
+                        <a class="btn btn-info" asp-action="Details" asp-route-id="@item.TrainingID">Details</a>
+                        @if (((List<Guid>)ViewBag.JoinedTrainings).Contains(item.TrainingID))
+                        {
+                            <form asp-action="Unjoin" method="post" class="d-inline">
+                                <input type="hidden" name="id" value="@item.TrainingID" />
+                                <button type="submit" class="btn btn-danger">Unjoin</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <form asp-action="Join" method="post" class="d-inline">
+                                <input type="hidden" name="id" value="@item.TrainingID" />
+                                <button type="submit" class="btn btn-success">Join</button>
+                            </form>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<div class="pagination-container">
+    <div class="d-flex justify-content-center">
+        @if (ViewBag.PageNumber > 1)
+        {
+            <a class="btn btn-primary" asp-action="Index" asp-route-page="@(ViewBag.PageNumber - 1)">Previous</a>
+        }
+        @for (int i = 1; i <= ViewBag.TotalPages; i++)
+        {
+            <a class="btn btn-primary @(i == ViewBag.PageNumber ? "active" : "")" asp-action="Index" asp-route-page="@i">@i</a>
+        }
+        @if (ViewBag.PageNumber < ViewBag.TotalPages)
+        {
+            <a class="btn btn-primary" asp-action="Index" asp-route-page="@(ViewBag.PageNumber + 1)">Next</a>
+        }
+    </div>
+</div>
+
+<style>
+    .pagination-container {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .pagination .btn.active {
+        background-color: #007bff;
+        color: white;
+    }
+</style>

@@ -1,0 +1,34 @@
+﻿@model List<MHR_EF_Code.Models.Entities.Payroll>
+
+<h2>Payroll</h2>
+
+<table class="table table-bordered table-striped table-hover">
+    <thead class="table-dark" >
+    <tr>
+        <th>Employee Code
+        <th>Employee Name</th>
+        <th>Salary</th>
+        <th>Paydate</th>
+        <th>describe</th>
+        <th>Action</th>
+    </tr>
+</thead>
+<tbody>
+        @foreach (var payroll in Model)
+        {
+            <tr>
+                <td>@(payroll.Employee != null ? payroll.Employee.EmployeeCode : "No name")</td>
+                <td>@(payroll.Employee != null ? payroll.Employee.FullName : "No name")</td>
+                <td>@(payroll.TotalSalary != null ? payroll.TotalSalary?.ToString("C"): "N/A")</td>
+                <td>@(payroll.PayDate != null ? payroll.PayDate.Value.ToString("dd/MM/yyyy") : "Chưa cập nhật")</td>
+                <td>@(!string.IsNullOrWhiteSpace(payroll.Details) ? payroll.Details : "Không có thông tin")</td>
+                <td>
+                    <a href="@Url.Action("Detail", "Payroll", new { id = payroll.PayrollId })" class="btn btn-info">Pay</a>
+                    <a href="@Url.Action("Edit", "Payroll", new { id = payroll.PayrollId })" class="btn btn-warning ">Edit</a>
+                </td>
+            </tr>
+        }
+
+</tbody>
+
+</table>

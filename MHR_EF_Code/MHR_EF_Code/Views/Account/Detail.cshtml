@@ -1,0 +1,40 @@
+﻿@model MHR_EF_Code.Models.Entities.Employees
+
+@{
+    ViewData["Title"] = "Employee Detail";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div>
+    <h3>Employee Information</h3>
+    <table class="table">
+        <tr>
+            <th>Employee Code</th>
+            <td>@Model.EmployeeCode</td>
+        </tr>
+        <tr>
+            <th>Full Name</th>
+            <td>@Model.FullName</td>
+        </tr>
+        <tr>
+            <th>Hire Date</th>
+            <td>@Model.HireDate.ToString("yyyy-MM-dd")</td>
+        </tr>
+        <tr>
+            <th>Identity Number</th>
+            <td>@Model.IdentityNumber</td>
+        </tr>
+        <tr>
+            <th>Education</th>
+            <td>@Model.Education</td>
+        </tr>
+      
+        <tr>
+            <th>Position</th>
+            <td>@Model.Position</td>
+        </tr>
+    </table>
+</div>
+
+<a href="@Url.Action("Index", "Home")" class="btn btn-primary">Back to Home</a>

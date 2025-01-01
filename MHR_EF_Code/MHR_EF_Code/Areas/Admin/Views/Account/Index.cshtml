@@ -1,0 +1,28 @@
+﻿@model List<MHR_EF_Code.Models.Entities.AppUser>
+
+<h2>List Account</h2>
+<table class="table table-bordered table-striped table-hover">
+    <thead class="table-dark" ">
+        <tr>
+            <th>User Name</th>
+            <th>Passwork</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+            <th>Address</th>
+            <th>Employee name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.UserName</td>
+                <td>@(item.PasswordHash != null ?"*******" : "N/A") </td>
+                <td>@item.Email</td>
+                <td>@item.PhoneNumber</td>
+                <td>@item.Address</td>
+                <td>@item.Employee?.FullName</td>
+            </tr>
+        }
+    </tbody>
+</table>

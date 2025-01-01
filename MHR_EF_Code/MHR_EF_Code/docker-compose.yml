@@ -1,0 +1,26 @@
+﻿# services:
+#   app:
+#     build: .
+#     image: mhr_app:latest
+#     ports:
+#       - "8080:8080"
+#       - "8081:8081"
+#     depends_on:
+#       - db
+#     environment:
+#       - ConnectionStrings__MHRDatabase=Server=db;Database=MHRDatabase;User Id=sa;Password=123;TrustServerCertificate=True
+#     volumes:
+#       - ./dataProtectionKeys:/root/.aspnet/DataProtection-Keys  
+
+#   db:
+#     image: mcr.microsoft.com/mssql/server:2019-latest
+#     ports:
+#       - "1433:1433"
+#     environment:
+#       ACCEPT_EULA: "Y"
+#       SA_PASSWORD: "YourStrong@Password"
+#     volumes:
+#       - db_data:/var/opt/mssql 
+
+# volumes:
+#   db_data:  

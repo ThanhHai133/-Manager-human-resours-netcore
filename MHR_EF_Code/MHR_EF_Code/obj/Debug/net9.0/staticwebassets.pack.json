@@ -9,8 +9,28 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\css\\styleCss.css",
+      "PackagePath": "staticwebassets\\css\\styleCss.css"
+    },
+    {
       "Id": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\img\\hat.png",
+      "PackagePath": "staticwebassets\\img\\hat.png"
+    },
+    {
+      "Id": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\img\\op.png",
+      "PackagePath": "staticwebassets\\img\\op.png"
+    },
+    {
+      "Id": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\js\\confirmDelete.js",
+      "PackagePath": "staticwebassets\\js\\confirmDelete.js"
+    },
+    {
+      "Id": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\js\\controllUser.js",
+      "PackagePath": "staticwebassets\\js\\controllUser.js"
     },
     {
       "Id": "D:\\ASP\\Manager human resours netcore\\MHR_EF_Code\\MHR_EF_Code\\wwwroot\\js\\site.js",

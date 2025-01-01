@@ -1,0 +1,42 @@
+﻿@model IEnumerable<MHR_EF_Code.Models.Entities.Attendance>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.First().TotalDaysWorked)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().StartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().EndDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Employee)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TotalDaysWorked)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StartDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EndDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Employee.EmployeeCode)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

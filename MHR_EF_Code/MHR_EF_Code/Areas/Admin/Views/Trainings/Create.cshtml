@@ -1,0 +1,44 @@
+﻿@model MHR_EF_Code.Models.Entities.Training
+
+<h1>Create</h1>
+<hr />
+<form asp-action="create" asp-controller="Trainings" method="post" enctype="multipart/form-data" class="needs-validation" novalidate>
+            <div class="form-group">
+                <label asp-for="TrainingName" class="control-label"></label>
+                <input asp-for="TrainingName" class="form-control" />
+                <span asp-validation-for="TrainingName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quantity" class="control-label"></label>
+                <input asp-for="Quantity" class="form-control" />
+                <span asp-validation-for="Quantity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StartDate" class="control-label"></label>
+                <input asp-for="StartDate" class="form-control" />
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EndDate" class="control-label"></label>
+                <input asp-for="EndDate" class="form-control" />
+                <span asp-validation-for="EndDate" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check mt-3">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsActive" /> @Html.DisplayNameFor(model => model.IsActive)
+                </label>
+            </div>
+        <div class="mt-4">
+            <input type="submit" class="btn btn-primary d-inline" />
+            <a class="btn btn-secondary d-inline" asp-action="Index">Back to List</a>
+        </div>
+
+        </form>
+ 
+
+

@@ -1,0 +1,69 @@
+﻿@model MHR_EF_Code.Models.Entities.Contact
+
+<h1>Edit Contact</h1>
+
+<hr />
+<form asp-action="Edit" method="post">
+    <input asp-for="ContactId" type="hidden" />
+    <input asp-for="EmployeeId" type="hidden" />
+    <div class="row">
+        <div class="col-6 mb-3">
+            <div class="form-group">
+                <label class="control-label">Employee Name</label>
+                <div class="form-control-plaintext">
+                    @Model.Employee.FullName
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-6 mb-3">
+            <div class="form-group">
+                <label asp-for="ContactType" class="control-label"></label>
+                <input asp-for="ContactType" class="form-control" />
+                <span asp-validation-for="ContactType" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-6 mb-3">
+            <div class="form-group">
+                <label asp-for="BaseSalary" class="control-label"></label>
+                <input asp-for="BaseSalary" class="form-control" />
+                <span asp-validation-for="BaseSalary" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="col-6 mb-3">
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <textarea asp-for="Description" class="form-control"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-6 mb-3">
+            <div class="form-group">
+                <label asp-for="StartDate" class="control-label"></label>
+                <input asp-for="StartDate" class="form-control" />
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="col-6 mb-3">
+            <div class="form-group">
+                <label asp-for="EndDate" class="control-label"></label>
+                <input asp-for="EndDate" class="form-control" />
+                <span asp-validation-for="EndDate" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" class="btn btn-primary" />
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</form>

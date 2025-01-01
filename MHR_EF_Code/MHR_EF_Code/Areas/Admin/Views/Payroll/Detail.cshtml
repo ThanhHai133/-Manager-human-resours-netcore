@@ -1,0 +1,39 @@
+﻿@model MHR_EF_Code.ViewModels.EmployeeSalaryVM
+
+<h2>Payroll Details</h2>
+
+<form asp-action="Detail" method="post">
+    <div class="form-group">
+        <label>Full Name:</label>
+        <input type="text" class="form-control" asp-for="Employees.FullName" readonly />
+    </div>
+
+    <!-- Lương cơ bản -->
+    <div class="form-group">
+        <label>Base Salary:</label>
+        <input type="number" class="form-control" asp-for="Contact.BaseSalary" value="@Model.Contact.BaseSalary.ToString("F2")" />
+    </div>
+
+    <!-- Số ngày làm -->
+    <div class="form-group">
+        <label>Total Days Worked:</label>
+        <input type="number" class="form-control" asp-for="Attendance.TotalDaysWorked" />
+    </div>
+
+    <!-- Số giờ làm thêm -->
+    <div class="form-group">
+        <label>Overtime Hours:</label>
+        <input type="number" class="form-control" asp-for="Overtime.Hours" />
+    </div>
+
+    <!-- Tổng lương (tạm tính) -->
+    <div class="form-group">
+        <label>Total Salary:</label>
+        <input type="number" class="form-control" value="@Model.TotalSalary" readonly />
+    </div>
+
+    <!-- Nút xác nhận -->
+    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+    <a href="@Url.Action("Index", "Payroll")" class="btn btn-secondary mt-3">Cancel</a>
+</form>
+

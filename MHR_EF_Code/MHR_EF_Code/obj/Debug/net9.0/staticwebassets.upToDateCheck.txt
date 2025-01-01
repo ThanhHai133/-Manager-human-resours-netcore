@@ -19,6 +19,7 @@ D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\lib\bootstr
 D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
 D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
 D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\css\styleCss.css
 D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
 D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
 D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
@@ -36,6 +37,7 @@ D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\lib\bootstr
 D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
 D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\lib\bootstrap\dist\css\bootstrap.css
 D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\lib\jquery\dist\jquery.slim.js
+D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\js\controllUser.js
 D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
 D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
 D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -44,6 +46,7 @@ D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\lib\bootstr
 D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\lib\jquery-validation\dist\jquery.validate.js
 D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
 D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\js\confirmDelete.js
 D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\favicon.ico
 D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\css\site.css
 D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
@@ -61,7 +64,12 @@ D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\lib\bootstr
 D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\lib\jquery\LICENSE.txt
 D:\ASP\Manager human resours netcore\MHR_EF_Code\MHR_EF_Code\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
 wwwroot\css\site.css
+wwwroot\css\styleCss.css
 wwwroot\favicon.ico
+wwwroot\img\hat.png
+wwwroot\img\op.png
+wwwroot\js\confirmDelete.js
+wwwroot\js\controllUser.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

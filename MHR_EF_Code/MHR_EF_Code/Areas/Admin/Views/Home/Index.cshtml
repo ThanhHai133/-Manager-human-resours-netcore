@@ -1,0 +1,163 @@
+﻿@{
+    ViewBag.Title = "Admin home";
+
+}
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+    google.charts.load('current', { 'packages': ['corechart'] });
+    google.charts.setOnLoadCallback(drawCharts); // Thay đổi ở đây
+
+    function drawCharts() {
+        drawChart(); // Gọi hàm vẽ biểu đồ đầu tiên
+        drawDepartmentChart(); // Gọi hàm vẽ biểu đồ thứ hai
+    }
+
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+            ['Task', 'Hours per Day'],
+            ['Employees', 30],
+            ['HR', 10],
+            ['IT', 20],
+            ['Accountant', 10],
+            ['Marketing', 30]
+        ]);
+
+        var options = {
+            title: 'The Departments'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+        chart.draw(data, options);
+    }
+
+    function drawDepartmentChart() {
+        var data = google.visualization.arrayToDataTable([
+            ['Department', 'Number of Employees'],
+            ['Sales', 20],
+            ['HR', 15],
+            ['IT', 25],
+            ['Finance', 10],
+            ['Marketing', 30]
+        ]);
+
+        var options = {
+            title: 'Number of Employees by Department'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('departmentChart'));
+        chart.draw(data, options);
+    }
+</script>
+<header>
+</header>
+
+<main>
+    <div class="row" style="margin-top:60px">
+        <a asp-controller="Employee" asp-action="index">
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <div class="card" style="border: 1px solid #ced4da; border-radius: 0.5rem; position: relative; overflow: visible;">
+                <div class="icon icon-lg icon-shape bg-info text-white shadow-dark shadow text-center border-radius-xl"
+                     style="width: 100px; height: 100px; position: absolute; top: -10%; left: 20px; display: flex; align-items: center; justify-content: center;">
+                    <i class="material-symbols-outlined" style="font-size: 48px;">group</i>
+                </div>
+                <div class="card-header p-3 pt-5" style="padding-left: 100px;">
+                    <div class="text-end pt-1">
+                        <p class="text-sm mb-0 text-capitalize">Employee</p>
+                        <h4 class="mb-0">@ViewBag.GetToTalUsers</h4>
+                    </div>
+                </div>
+                <hr class="dark horizontal my-0">
+                <div class="card-footer p-3">
+                    <p class="mb-0"><span class="text-success text-sm font-weight-bolder">+55% </span>than last week</p>
+                </div>
+            </div>
+        </a>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <a asp-controller="Trainings" asp-action="index">
+            <div class="card" style="border: 1px solid #ced4da; border-radius: 0.5rem; position: relative; overflow: visible;">
+                <div class="icon icon-lg icon-shape bg-warning text-white shadow-dark shadow text-center border-radius-xl"
+                     style="width: 100px; height: 100px; position: absolute; top: -10%; left: 20px; display: flex; align-items: center; justify-content: center;">
+                    <i class="material-symbols-outlined" style="font-size: 48px;">Mail</i>
+                </div>
+                <div class="card-header p-3 pt-5" style="padding-left: 100px;">
+                    <div class="text-end pt-1">
+                        <p class="text-sm mb-0 text-capitalize">Training</p>
+
+                        <h4 class="mb-0">@ViewBag.GetTraining</h4>
+                    </div>
+                </div>
+                <hr class="dark horizontal my-0">
+                <div class="card-footer p-3">
+                    <p class="mb-0"><span class="text-success text-sm font-weight-bolder">+55% </span>than last week</p>
+                </div>
+            </div>
+        </a>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <a asp-controller="Bonuses" asp-action"index">
+            <div class="card" style="border: 1px solid #ced4da; border-radius: 0.5rem; position: relative; overflow: visible;">
+                <div class="icon icon-lg icon-shape bg-success text-white shadow-dark shadow text-center border-radius-xl"
+                     style="width: 100px; height: 100px; position: absolute; top: -10%; left: 20px; display: flex; align-items: center; justify-content: center;">
+                    <i class="material-symbols-outlined" style="font-size: 48px;">article</i>
+                </div>
+                <div class="card-header p-3 pt-5" style="padding-left: 100px;">
+                    <div class="text-end pt-1">
+                        <p class="text-sm mb-0 text-capitalize">Bonuses</p>
+                        <h4 class="mb-0">  @ViewBag.GetBonuses</h4>
+                    </div>
+                </div>
+                <hr class="dark horizontal my-0">
+                <div class="card-footer p-3">
+                    <p class="mb-0"><span class="text-success text-sm font-weight-bolder">+55% </span>than last week</p>
+                </div>
+            </div>
+            </a>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 mb-4">
+            <a asp-controller="LeaveRequests" asp-action="index">
+            <div class="card" style="border: 1px solid #ced4da; border-radius: 0.5rem; position: relative; overflow: visible;">
+                <div class="icon icon-lg icon-shape bg-primary text-white shadow-dark shadow text-center border-radius-xl"
+                     style="width: 100px; height: 100px; position: absolute; top: -10%; left: 20px; display: flex; align-items: center; justify-content: center;">
+                    <i class="material-symbols-outlined" style="font-size: 48px;">Contract</i>
+                </div>
+                <div class="card-header p-3 pt-5" style="padding-left: 100px;">
+                    <div class="text-end pt-1">
+                        <p class="text-sm mb-0 text-capitalize">LeaveRequests</p>
+                        <h4 class="mb-0">@ViewBag.GetLeaveRequest</h4>
+                    </div>
+                </div>
+                <hr class="dark horizontal my-0">
+                <div class="card-footer p-3">
+                    <p class="mb-0"><span class="text-success text-sm font-weight-bolder">+55% </span>than last week</p>
+                </div>
+            </div>
+        </a>
+        </div>
+
+    </div>
+    <div class="row" style=" margin:20px; display: flex;">
+        <div class="col-lg-6" style="border: 2px solid #ced4da; border-radius: 1rem;  background-color: #f8f9fa; display: flex; align-items: center;">
+            <div style="flex: 1; padding-right: 20px;">
+                <h4>The Departments</h4>
+                <p>Chart showing the distribution of hours spent in different departments.</p>
+            </div>
+            <div id="piechart" style="width: 80%; height: 300px;"></div>
+        </div>
+        <div class="col-lg-6" style="border: 2px solid #ced4da; border-radius: 1rem;  background-color: #f8f9fa; display: flex; align-items: center;">
+            <div style="flex: 1; padding-right: 20px;">
+                <h4>Number of Employees by Department</h4>
+                <p>Chart displaying the number of employees in each department.</p>
+            </div>
+            <div id="departmentChart" style="width: 80%; height: 300px;"></div>
+        </div>
+    </div>
+</main>
+
+
+
+
+

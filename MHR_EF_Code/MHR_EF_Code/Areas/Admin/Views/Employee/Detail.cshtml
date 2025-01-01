@@ -1,0 +1,45 @@
+﻿@model MHR_EF_Code.ViewModels.EmployeeDetailVM
+
+<h1>Employee Details</h1>
+<a asp-action="index" asp-controller="Employee" class="btn btn-primary">Get back</a>
+
+<div class="row">
+    <div class="col-md-6">
+        <p><strong>Employee Code:</strong> @Model.EmployeeCode</p>
+    </div>
+    <div class="col-md-6">
+        <p><strong>Full Name:</strong> @Model.FullName</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <p><strong>Hire Date:</strong> @Model.HireDate.ToShortDateString()</p>
+    </div>
+    <div class="col-md-6">
+        <p><strong>Position:</strong> @Model.Position</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <p><strong>Identity:</strong> @Model.Identity</p>
+    </div>
+    <div class="col-md-6">
+        <p><strong>Education:</strong> @Model.Education</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <p><strong>Department:</strong> @Model.DepartmentID</p>
+    </div>
+    <div class="col-md-6">
+        <p><strong>Username:</strong> @Model.Username</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <p><strong>Email:</strong> @Model.Email</p>
+    </div>
+    <div class="col-md-6">
+        <p><strong>Photo:</strong> <img src="@Model.Photo" alt="Employee Photo" class="img-fluid" style="max-height: 200px;" /></p>
+    </div>
+</div>
